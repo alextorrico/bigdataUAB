@@ -26,9 +26,9 @@ llistadenoms = [noms, cognoms]
 #print(llista)
 
 for nom in noms:
-   # print('en', nom, 'no ha vingut')
+  print('en', nom, 'no ha vingut')
 
-    #print(f'en {nom} no ha vingut')
+print(f'en {nom} no ha vingut')
 
 
 numeros = [1,2,3,4,10]
