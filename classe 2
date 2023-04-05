@@ -1,15 +1,24 @@
+### Imprimir una llista amb bucle for
+#### cadena:
+
+```Python
 llista = ['jaume', "carmen"]
 
 for cada_cosa in llista:
     print(cada_cosa)
-
+```
+#### integers:
+```Python
 
 llista = [1, 2]
 
 for cada_cosa in llista:
     print(cada_cosa + 4)
 
-
+```
+### Afegir elements a una llista:
+##### Utilitzem un bucle for
+```Python
 llista = ['jaume', "carmen"]
 
 for nom in llista:
@@ -23,6 +32,11 @@ llista_nova = llista.append(nou_nom)
 
 print(llista_nova)
 
+```
+
+### Condicionals:
+##### Else / if:
+```Python
 
 llista_noms = ['joan', "carmen", "shakira"]
 '''
@@ -36,10 +50,14 @@ for nom in llista_noms:
         print(nom + ' no es en joan')
         
         
-        
+    
 numeros = [1,2,3,6,7,8,10,15]
 
+```
 
+#### Elif:
+##### Més de dues alternatives:
+```Python
 for n in numeros:
     if n < 6:
         print(n , ' es menor que 6')
@@ -55,11 +73,18 @@ numeros = [1,2,3,6,7,8,10,15,5]
 
 print(len(numeros))
 
+```
 
+### Funció len:
+##### Ens diu la longitud:
+```Python
 llargaria = len(numeros)
 print(llargaria)
 
+```
 
+### Activitats:
+```Python
 texto = 'esto es un ejrcicio'
 
 print(texto)
@@ -71,18 +96,17 @@ nom_classe = 'analitica digital'
 
 print ('en la classe de ', nom_classe, 'he tret un', nota)
 
-'''
-ejercicio A
-'''
+````
+#### Activitat 1:
+```Python
 nota = 10
 frase = 'en la classe de ', nom_classe, 'he tret un', nota
 
 print(frase)
+```
 
-
-'''
-ejercicio B
-'''
+###### Pasos:
+```Python 
 notas = ["5","7","6","4","8","2"]
 alumnos = ["jaume","carla","pere","adrià","rafael","agnès"]
 
@@ -116,7 +140,6 @@ else:
     print('no')
 
 
-
 '''identifica valors duplicats per no contar mes dun cop
 '''
 llista = ["jaume","carla","pere","adrià","rafael","agnès","joan","carla"]
@@ -127,8 +150,10 @@ print(len(valors_unics))
 mes optim:
 print(len(set(llista)))
 
+```
 
-activitat 2
+### Activitat 2:
+```Python 
 
 llista = [
     "david",
@@ -154,6 +179,9 @@ llista = [
     "dani",
     "carla"
 ]
+```
+#### Pasos:
+```Python 
 '''
 cuantas personas han asistido?
 '''
