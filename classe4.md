@@ -1,3 +1,7 @@
+###  Twitch API 
+Hem d'importar la API de Twitch i tot el que necessitarem pel nostre projecte:
+```Python
+
 import pandas as pd
 from twitchAPI.twitch import Twitch
 from pprint import pprint
@@ -7,9 +11,16 @@ import datetime
 import time
 
 now = datetime.datetime.now()
+```
+Per poder imporatr les dades ens hem de registrar com a desenvolupadors i utilitzar les nostres credencials personals:
+```Python
 
 twitch = Twitch('vj6x51xitd3q6lrrhsm47fzdzekmht', 'm1i5cbhzucnz8bvqf8thdmven2zpb3')
 pprint(twitch.get_users(logins=['alexalexales']))
+
+```
+### Hem de decidir quines dades volem utilitzar i quines no, per optimitzar recursos:
+```Python 
 
 llista_dataframes=[]
 cursor_dummy = None
@@ -66,3 +77,5 @@ crida(cursor_dummy)
 final_dataframe = pd.concat(llista_dataframes)
 final_dataframe.to_csv('export.csv', index=False)
     #print(final_dataframe)
+
+```
