@@ -53,4 +53,5 @@ for i in numeros:
     print (numeros)
 '''
 Sumem 2 a cada element de la llista gracies al bucle for
+'''
 ```
