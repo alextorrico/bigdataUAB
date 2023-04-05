@@ -1,10 +1,24 @@
+## Pandas:
+#### - Primer de tot s'ha de descarregar
+#### - Segon pas ho importem al nostre projecte:
+```Python 
 import pandas as pd
+```
 
-'''
+### Diccionari:
+El diccionari te una estructura de clau i valor que van relacionades:
+```Python
+
 diccionari = {"clau": "valor"}
 
-tupla = ("elquesigui","elquesigui")
+```
+### Tupla:
+```Python
 
+tupla = ("elquesigui","elquesigui")
+```
+### Exemple:
+```Python
 
 llista_1 = [6,9]
 llista_2 = ["josep", "maria"]
@@ -20,7 +34,9 @@ for nota, nom in zip(llista_1, llista_2):
 for t in llista_final:
    nota = t[0]
    connjunt = t[]
-'''
+```
+### Activitats:
+```Python
 
 notes = [1,6,8,9,10,6,5]
 alumnes = ["Jaume", "Carles", "Cristina", "Josep", "Rafael", "Agnès", "Marta"]
@@ -34,8 +50,7 @@ for alumne, cognom in zip(alumnes, cognoms):
    print(conjunt)
    llista_final.append(conjunt)
 
-
-#print(llista_final)
+print(llista_final)
 
 #tarea 2: noms ajuntats + la nota final
 
@@ -45,9 +60,10 @@ for alumne, nota in zip(llista_final, notes):
 
    dades_finals.append(conjunt)
 
-#print(dades_finals)
-
-# o (una altra manera de ferho)
+print(dades_finals)
+```
+#### Una altra manera de fer-ho
+```Python 
 
 llista_final =[]
 
@@ -55,29 +71,28 @@ for alumne, cognom, nota in zip(alumnes, cognoms, notes):
    conjunt = f"{alumne} {cognom}"
    tupla = (conjunt, nota)
    llista_final.append(tupla)
-#print(llista_final)
+print(llista_final)
 
 
 #tasca 3: sumar un punt a totes les notes sense superar el
-'''
+
 for persona in llista_final:
    nova_nota = persona [1]+1
    if nova_nota > 10:
       nova_nota = 10
    nova_persona = (persona[0], nova_nota)
    print(nova_persona)
-'''
-
-
 
 #tasca 4: afegeix un tercer element a la tupla
+
 '''
 - Si la nota final es inferior a 5, añadir el texto "suspendido".
 - Si la nota se encuentra entre 5 y 6 (ambos incluídos), añadir el texto "aprobado".
 - Si la nota es superior a 6, e inferior a 7, añadir el texto "bien".
 - Si la nota es igual o superior a 7, añadir el texto "notable".
 - Si la nota supera el 9, añadir el texto "Excelente".
-- Si la nota equivale a un 10, añadir el texto "matrícula de honor".'''
+- Si la nota equivale a un 10, añadir el texto "matrícula de honor".
+'''
 
 llista_definitiva =[]
 for persona in llista_final:
@@ -106,6 +121,8 @@ df = pd.DataFrame(llista_definitiva)
 
 df.to_csv(dataset.csv)
 
+
+
 # tarea 5: transforma la lista de tuplas en un dataset
 
 import json
@@ -113,11 +130,12 @@ import json
 import pandas as pd
 
 # Opening JSON file
+
 f = open('medidas.json') #carregar l'arxiu
 data = json.load(f) #transformar a diccionri
 
 for d in data:  #iterem sobre les dades
-   #print(d["temperatura"]) #imprimim el continggut de la key temperatura
+   print(d["temperatura"]) #imprimim el continggut de la key temperatura
     print(f'{d["fecha"]} {d["temperatura"]}')
 
 #imprimir la quantitat de dades que hi ha al arxiu
