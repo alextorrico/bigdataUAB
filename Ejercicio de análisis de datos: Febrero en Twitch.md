@@ -34,7 +34,7 @@ En el siguiente gráfico de dispersión podemos ver más claramente donde se sit
 <img width="565" alt="image" src="https://user-images.githubusercontent.com/124086935/232321332-cebea6f8-510c-433c-a23d-3340ee5ce234.png">
 
 
-### #3 ¿Cómo han evolucionado (captura a captura) estas categorías a lo largo del mes?
+### 3 ¿Cómo han evolucionado (captura a captura) estas categorías a lo largo del mes?
 
 En el siguiente gráfico podemos ver cómo han ido evolucionando las diferentes categorías a lo largo del mes de febrero, a continuación analizaremos algunas categorías destacadas.
 
@@ -55,5 +55,45 @@ También ha mantenido una tendencia creciente y ha tenido algún pico de más de
 En contraste, si observamos Hogwards Legacy, un juego recién estrenado:
 
 Podemos ver que no solo no ha conseguido unos picos de audiencia relevantes, sino que con el tiempo su línea de tendencia ha ido en descenso y prácticamente tiene una actividad nula respecto a otras categorías:
+
+<img width="497" alt="image" src="https://user-images.githubusercontent.com/124086935/232321548-565e11eb-5622-4eb8-b21f-35aa669a6e2e.png">
+
+En el gráfico siguiente podemos ver como se han distribuido los volúmenes de audiencia según las diferentes categorías, vemos que las categorías principales nombradas anteriormente se quedan con la mayoría de los espectadores, mientras que el resto se reparte en muchas categorías más pequeñas que dejan una distribución de la audiencia muy polarizada:
+
+<img width="563" alt="image" src="https://user-images.githubusercontent.com/124086935/232321575-0ac766e4-7933-4764-b362-e16740009996.png">
+
+### 4.¿Cuál es la distribución de los streamers si los clasificamos por volúmenes de audiencia y horas realizadas?
+
+Para entender el siguiente gráfico hay que tener presente que un mes cuenta con aproximadamente 730 horas.
+
+En la siguiente tabla se muestran los canales de Twitch que más horas de directo han realizado durante el mes de febrero, podemos ver que muchos de ellos alcanzan las más de 600 horas, lo que nos indica que han estado en directo sin parar durante todo el mes:
+
+Horas:
+
+<img width="596" alt="image" src="https://user-images.githubusercontent.com/124086935/232321650-1e9891c5-417a-47a9-88ba-4fc31f813a97.png">
+
+En el siguiente gráfico se muestran los canales de twitch que más audiencia han acumulado durante el mes de febrero de 2023, como podemos ver ninguno de los canales anteriores aparece en el siguiente gráfico, lo que nos indica que por muchas horas de directo que realices no te garantiza tener audiencia.
+
+Los dos canales más destacados con KingsLeague y Ibai, ambos pertenecen a alguna de las categorías con más espectadores que hemos visto anteriormente, la KingsLeague e Ibai a Sports y Ibai a JustChating y otras categorías también importantes
+
+Audiencia:
+<img width="606" alt="image" src="https://user-images.githubusercontent.com/124086935/232321680-a58bb363-f309-47bf-a97c-359aea1e6406.png">
+
+En este gráfico de dispersión se sitúan los canales más visualizados respecto a las horas de directo que han realizado, vemos como la gran mayoría de canales rondan las 100 horas en adelante y no tienen un nivel de audiencia que destaque del grupo.
+
+Pero después observamos los canales más importantes como pueden ser: Kings League, Ibai, El Spreen, juansguarnizo, AuronPlay, El Xokas, etc. que sin realizar un número disparatado de horas, alcanzan niveles de audiencia importantes:
+
+Comparación:
+
+<img width="606" alt="image" src="https://user-images.githubusercontent.com/124086935/232321723-8d17bcff-1d3d-428e-a939-54ce12d872b0.png">
+
+### 5.¿Cuál ha sido la evolución (captura a captura) de la desviación estándar en el volúmen de espectadores? ¿En qué momentos las audiencias se encuentran más polarizadas y en qué momentos la distribución es más uniforme?
+
+Como podemos observar, la desviación estándar ha seguido un patrón cíclico a lo largo del mes, siendo en la tarde-noche los momentos donde esta ha sido más grande y durante el día la desviación estándar tenía unos números más bajos, siempre rondando 40, con una mínima de 33 el día 26 de febrero
+En los momentos donde la desviación estándar era más alta se pueden observar picos, como por ejemplo en los días 7, 13 y 20 de febrero, con una máxima el día 26, donde la desviación estándar alcanzo 8.332
+
+<img width="533" alt="image" src="https://user-images.githubusercontent.com/124086935/232321763-1dbf3e24-8563-422a-85e0-0ec074eed579.png">
+
+
 
 
