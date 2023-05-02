@@ -1,6 +1,6 @@
-Tableau:
+# Tableau:
   
-```Python
+
 import pandas as pd
 import json
 import glob
@@ -64,10 +64,10 @@ for file in files:
 df_final = pd.concat(llista_dfs) # concatenamos todos los dataframe de los archivos json en una lista
 df_final.to_csv("final_tableau.csv") # exportamos el archivo csv
 
-```
-Gephi:
+
+# Gephi:
   
-```Python
+
 import pandas as pd
 import glob
 import json
@@ -112,7 +112,3 @@ df.to_csv("final_gephi.csv", index=False) # exportamos un csv
 for user, mentions in users_mentions.items():
     for mention in mentions:
         print(f"{user} mencionó a {mention}")
-
-
-
-```
