@@ -1,4 +1,4 @@
-Àlex Torrico -Comunicació Interactiva, 2023
+Àlex Torrico - Comunicació Interactiva, 2023
 
 # Introducció
 
