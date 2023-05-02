@@ -82,7 +82,7 @@ En la següent imatge veiem clarament com la candidata Eva Parera es troba molt 
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/124086935/235734695-96bcdcb7-44cd-4f26-96c7-f739fe8bad28.png">
 
 
-
+Àlex Torrico - Comunicació Interactiva, 2023
 
 
 
