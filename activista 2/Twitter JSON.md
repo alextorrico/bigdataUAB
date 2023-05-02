@@ -1,3 +1,5 @@
+Àlex Torrico -Comunicació Interactiva, 2023
+
 # Introducció
 
 En aquesta anàlisi observarem les dades extretes de Twitter els 16 primers dies del mes d'abril, concretament analitzarem el que es parla a la xarxa social referent a les candidates i candidats per a les eleccions municipals de Barcelona del 2023: Basha Changue, Ernest Maragall, Ada Colau, Jaume Collboni, Xavier Trias, Anna Grau, Eva Parera, Daniel Sirera
