@@ -64,6 +64,28 @@ Per últim, en aquesta anàlisi amb el programa Tableau, vaig voler veure quin v
 
 ## Grafo:
 
+A continuació podem observar un Grafo on es representen totes les connexions dels diferents Tweets generats durant aquest període, els tweets estan connectats segons el creador (origen) i la persona a la qual mencionen (objectiu).
+Cada temàtica o cada cercle de connexions està tintat d'un mateix color i relacionat per un node que fa de connexió entre diversos comptes.
+
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/124086935/235734234-f9756e75-699f-4e22-95e0-cd0a3bac54ab.png">
+
+Per exemple si ens apropem podem veure el cercle que envolta a Ada Colau, els comptes relacionats, i com el seu nom fa de node de molts altres comptes o persones que parlen d’ella:
+
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/124086935/235734366-bf436e57-e0a9-4ef0-a0a9-7287e4c40f27.png">
+
+El mateix passa amb l'altra candidata a l'alcaldia de Barcelona Anna Grau, podem veure en aquest cas moltes menys connexions i menys densitat, això ens confirma les dades que hem vist durant l'anàlisi amb Tableau, Ada Colau és la candidata més comentada i amb més impacte a la conversa que es genera a Twitter:
+
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/124086935/235734611-845ced11-a299-4cbb-8012-5ff151d0b128.png">
+
+En la següent imatge veiem clarament com la candidata Eva Parera es troba molt relacionada i a prop del comte oficial del seu partit a Twitter @Valents_cat:
+
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/124086935/235734695-96bcdcb7-44cd-4f26-96c7-f739fe8bad28.png">
+
+
+
+
+
+
 
 
 
